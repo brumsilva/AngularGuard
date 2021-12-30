@@ -1,0 +1,10 @@
+{
+  "Usuario": [
+    {
+      "id": 1,
+      "name": "Frango à brisa",
+      "username": "gui",
+      "password":"12345"
+    }
+  ]
+}

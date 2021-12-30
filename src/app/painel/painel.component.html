@@ -1,0 +1,30 @@
+<section class="section column is-half
+is-offset-one-quarter">
+<form>
+
+    <div class="field">
+      <label class="label">Username</label>
+      <div class="control has-icons-left has-icons-right">
+        <input class="input is-success" type="text" placeholder="Text input" name="username" [(ngModel)]="user.username">
+        <span class="icon is-small is-left">
+          <i class="fas fa-user"></i>
+        </span>
+        <span class="icon is-small is-right">
+          <i class="fas fa-check"></i>
+        </span>
+      </div>
+      <p class="help is-success">This username is available</p>
+    </div>
+  <div class="field">
+      <label class="label">Senha</label>
+      <div class="control">
+        <input class="input" type="text" placeholder="Text input" name="password" [(ngModel)]="user.password">
+      </div>
+  <div class="buttons">
+      <button class="button is-sucess" (click)="login()">Login</button>
+      <button class="button is-info">Success</button>
+  </div>
+  </div>
+
+</form>
+</section>
